@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="chip-details">
+                <img src="./Images/memory_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                <h4>TechNews</h4>
+            </div>
+              <div class="nav-link">
+                
+                    <a href="./home.html">Home</a>
+                    <a href="./news.html">News</a>
+                    <a href="./about.html">About</a>
+                    <a href="./review.html">review</a>
+                
+              </div>
+              <div class="search">
+                <input type="search" placeholder="search articles...">
+              </div>
+        </div>
+        <div class="both-two">
+        <div class="middle">
+            <h5>WELCOME TO TechNews</h5>
+            <p>your tusted source for the latest technology news, guides and insights.</p>
+             <h3 class="intro-text" >
+                Explore the new world of technology with Technews. stay informed about the latest innovations,discover
+                helpful tech tips,and learn how technologyis shaping our everydays lives.
+                from smartphones and computrs to softwares and AI, we've got you covered
+             </h3>
+        </div>
+          <div class="last">
+                    <form action="subscribe.php"
+                    method="post">
+                    <div class="input-box-five">
+                      <label for="location">locations:</label>
+                      <i class="fa-solid fa-location-dot" style="color: rgb(188, 194, 188);"></i>
+                      <input type="text"
+                       id="location" 
+                       name="user-location"
+                        list="locations" 
+                         placeholder="Enter your locations">
+                    </div>
+                      <datalist id="locations">
+                        <option value="Oyo">
+                        <option value="Ogun">
+                        <option value="Osun">
+                        <option value="Ekiti">
+                        <option value="Lagos">
+                         <option value="Enugu">
+                         <option value="Kano">
+                         <option value="Abuja">
+                         <option value="katstina">
+                         <option value="Adamawa">
+                         <option value="Anambra">
+                        <option value="Bayelsa">
+                         <option value="Bauchi">
+                         <option value="Benue">
+                        <option value="Ondo">                        
+                        <option value="Akwa-ibom">
+                        <option value="Delta">
+                        <option value="Gombe">
+                        <option value="Imo">
+                      </datalist>
+                      <div class="input-box">
+                      <label>Name:</label>
+                      <i class="fa-solid fa-circle-user" style="color: rgb(188, 194, 188);"></i>
+                       <input type="text" placeholder="write your name" id="names" name="user-name">
+                      </div>
+                      <div class="input-box-two">
+                       <label>Password:</label>
+                       <i class="fa-solid fa-lock" style="color: rgb(188, 194, 188);"></i>
+                      <input type="password" placeholder="write your Password" id="passwords" name="user-email">
+                      </div>
+                      <div class="input-box-three">
+                      <label>Email:</label>
+                      <i class="fa-regular fa-envelope" style="color: rgb(188, 194, 188);"></i>
+                      <input type="email" placeholder="write your email" id="emails">
+                      </div>
+                      <div class="input-box-four">
+                      <label>Message:</label>
+                      <i class="fa-solid fa-comment" style="color: rgb(188, 194, 188);"></i>
+                      <input type="Message" placeholder="write your message" id="message">
+                      </div>
+                      <button type="submit">Sign in</button>
+                    </form>
+                   </div>
+        </div>
+    </div>
+</body>
+</html>
