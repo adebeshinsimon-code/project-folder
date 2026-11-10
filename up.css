@@ -218,13 +218,20 @@ input{
     border-radius: 5px;
 }
 .last button{
-    background-color: rgb(184, 184, 184);
+    background-color: blue;
     border: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
     border-radius: 12px;
-    color: blue;
+    color: white;
     width: 170px;
     transform: translateY(5px);
+}
+.last button:hover{
+background-color: aqua;
+color: black;
+border: 2px solid white;
 }
 .both-two{
     display: flex;

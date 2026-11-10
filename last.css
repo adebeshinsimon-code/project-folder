@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: bisque;
+    background-color: rgb(40, 40, 245);
 }
 .container{
     display: flex;
@@ -97,9 +97,7 @@ body{
     display: flex;
     flex-direction: column; 
 }
-.review-two{
-    
-}
+
 .reviews h2,p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
